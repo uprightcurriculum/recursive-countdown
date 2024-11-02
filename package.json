@@ -1,8 +1,8 @@
 {
-  "name": "workshop-example-template",
+  "name": "recursive-countdown",
   "version": "1.0.0",
   "private": true,
-  "description": "A basic template for instructors to base their workshops on.",
+  "description": "In this exercise you'll create an interactive countdown program that uses recursion and asynchronous programming to count down from a user-provided number to zero, with a delay between each number.",
   "main": "main.js",
   "scripts": {
     "format": "prettier --write --ignore-unknown .",
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BurlingtonCodeAcademy/workshop-example-template.git"
+    "url": "https://github.com/uprightcurriculum/recursive-countdown"
   },
   "keywords": [
     "workshop",
     "javascript"
   ],
-  "author": "Joshua Burke",
+  "author": "Conor Shields",
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/BurlingtonCodeAcademy/workshop-example-template/issues"
+    "url": "https://github.com/uprightcurriculum/recursive-countdown"
   },
-  "homepage": "https://github.com/BurlingtonCodeAcademy/workshop-example-template#readme",
+  "homepage": "https://github.com/uprightcurriculum/recursive-countdown",
   "devDependencies": {
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
