@@ -21,16 +21,16 @@ In this exercise you'll create an interactive countdown program that uses recurs
 ## Context
 1. Create a function ```delay``` that returns a promise that resolves after a specified time. Inside the Promise use setTimeout to wait.
 2. Create an async function called ```countDown``` that takes one parameter:
-- A number to count down from ```(number)```
+    - A number to count down from ```(number)```
 3. The function should:
-- Recursively count down from the input number to zero
-- Wait 1 second between each number
-- Print each number to the console
-- Print "Blastoff!" when reaching zero
+    - Recursively count down from the input number to zero
+    - Wait 1 second between each number
+    - Print each number to the console
+    - Print "Blastoff!" when reaching zero
 3. Create input validation that:
-- Continuously prompts for input until valid
-- Checks for positive numbers
-- Provides helpful error messages
+    - Continuously prompts for input until valid
+    - Checks for positive numbers
+    - Provides helpful error messages
 
 ## Hint
 1. Create a while loop for continuous input validation
